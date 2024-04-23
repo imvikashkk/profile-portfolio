@@ -43,7 +43,7 @@ const Education = () => {
   });
   return (
     <>
-      <h2 className="font-bold text-8xl mt-64 w-full text-center md:text-6xl sm:text-5xl xs:text-4xl xl:mt-48 md:mt-32 sm:mt-24 mb-16 ">
+      <h2 id="education" className="font-bold text-8xl mt-64 w-full text-center md:text-6xl sm:text-5xl xs:text-4xl xl:mt-48 md:mt-32 sm:mt-24 mb-16 ">
         Education
       </h2>
 
