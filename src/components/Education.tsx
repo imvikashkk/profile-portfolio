@@ -62,13 +62,13 @@ const Education = () => {
             type="Higher Secondary - 12th"
             time="2020-2021"
             place="Adarsh Convent HS School Parsadih"
-            info="Secured an impressive 96.6% in 12th Grade (Higher Secondary), reflecting dedication which is the all-time highest in my school and village."
+            info="Secured an impressive 96.6% in 12th Grade."
           />
           <Details
             type="High School - 10th"
             time="2018-2019"
             place="Adarsh Convent High School Parsadih"
-            info="Attained an impressive 88% in 10th Grade (Higher School), showcasing academic excellence and dedication. Notably, it stands as the highest achievement in my rural village and second highest in my batch."
+            info="Attained an impressive 88% in 10th Grade (Higher School), showcasing academic excellence and dedication."
           />
         </ul>
       </div>
