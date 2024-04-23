@@ -293,7 +293,7 @@ const page = () => {
                 github="https://github.com/imvikashkk/InstaOne"
                 summary="Developed InstaOne as a college project, a versatile social media application featuring post creation, liking, following, and unfollowing capabilities. Engineered real-time chat with Socket.IO for seamless communication. Orchestrated personalized feeds for customized content delivery. Emphasized privacy and security. Ensured cross-platform accessibility. Contributed significantly to the creation of an engaging social networking platform"
                 title="InstaOne: A Social Media App (College Project)"
-                type="ReactJS | React | Redux | multer | ExpessJS | MongoDB | react-file-base64 | react-input-emoji | etc."
+                type="ReactJS | React | Redux | multer | ExpessJS | Socket.IO | MongoDB | react-file-base64 | react-input-emoji | etc."
               />
             </div>
 

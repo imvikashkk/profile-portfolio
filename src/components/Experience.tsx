@@ -73,7 +73,7 @@ const Experience = () => {
         <Details
             position="Web Development Intern"
             company="ZoomIntoWeb"                                                          
-            time="2022"
+            time="2023"
             address="Remote"
             companyLink="https://www.zoomintoweb.com/"
             work="Played a key role in implementing SignUp/SignIn functionality for both frontend and backend using MERN technology, including email authentication and password recovery. Collaborated on design and testing, showcasing effective teamwork in achieving project goals."
@@ -81,15 +81,15 @@ const Experience = () => {
           <Details
             position="Frontend Developer Intern"
             company="OctaNet"
-            time="2022"
+            time="2023"
             address="Remote"
             companyLink="https://octanet.in"
-            work="Designed a polished and user-friendly website layout with effortless navigation and appealing aesthetics."
+            work="Crafted a meticulously polished and user-friendly website layout, ensuring seamless navigation and visually captivating aesthetics."
           />
           <Details
             position="Frontend Developer Intern"
             company="BharatIntern"
-            time="2022"
+            time="2023"
             address="Remote"
             companyLink="https://bharatintern.live"
             work="Expertly crafted a sleek website layout for optimal user experience, ensuring intuitive navigation and visually appealing design elements."
