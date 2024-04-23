@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.InstaBGIcon{
+    background: radial-gradient(circle at 6.601% 99.766%, #fa8f21 9%, #d82d7e 78%), radial-gradient(circle at 70.652% 96.49%, rgba(140, 58, 170, 0) 64%, #8c3aaa 100%);
+}
