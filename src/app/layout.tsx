@@ -8,7 +8,7 @@ import Script from "next/script";
 const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-mont" });
 
 export const metadata: Metadata = {
-  title: "VikashKK Portfolio",
+  title: "KKDev",
   description: "A Portfolio Website",
 };
 
