@@ -29,7 +29,7 @@ const Details = ({ type, time, place, info }: DT) => {
         <span className="capitalize font-medium text-dark/75 dark:text-light/75">
           {time} | {place}
         </span>
-        <p className="font-medium w-full text-justify">{info}</p>
+        <p className="font-medium text-justify">{info}</p>
       </motion.div>
     </li>
   );
@@ -62,7 +62,7 @@ const Education = () => {
             type="Higher Secondary - 12th"
             time="2020-2021"
             place="Adarsh Convent HS School Parsadih"
-            info="Secured an impressive 96.6% in 12th Grade."
+            info="Achieved an outstanding academic milestone with a remarkable 96.6% score in the 12th Grade examination."
           />
           <Details
             type="High School - 10th"
