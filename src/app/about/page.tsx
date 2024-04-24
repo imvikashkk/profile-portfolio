@@ -35,18 +35,20 @@ const page = () => {
                 {`Skilled Full Stack Web Developer enthusiastic about crafting top-notch web applications. Proficient in MERN stack and Next.js, I'm eager to contribute to impactful digital solutions. I enjoy collaborating with teams, including in hackathons, to build user-friendly apps that exceed expectations. Seeking a challenging role where my skills and creativity shine.`}
               </p>
 
-              <p className="font-medium text-justify lg:hidden md:block sm:hidden">
+              <p className="2xl:hidden xl:block font-medium text-justify xlg:hidden md:block sm:hidden -mt-2">
                 {` Whether I'm crafting websites or other digital products, I bring unwavering dedication to developing excellence and user-centered thinking to every project. I eagerly anticipate the opportunity to apply my skills and passion to elevate your next digital endeavor.`}
               </p>
             </div>
             <div className="col-span-3 xl:col-span-4 md:col-span-8 md:order-1">
               <div
                 className="md:w-full relative h-max rounded-2xl  bg-light dark:bg-dark 
-              border-2 border-r-[10px] sm:border-b-[10px] sm:border-r-[8px] xs:border-b-[9px] xs:border-r-[7px] border-b-[12px] border-solid border-slate-400 dark:border-slate-700 p-8 sm:p-4 ">
+              border-2 border-r-[10px] sm:border-b-[10px] sm:border-r-[8px] xs:border-b-[9px] xs:border-r-[7px] border-b-[12px] border-solid border-slate-400 dark:border-slate-700 p-2 rounded-ee-none">
                 <Image
-                  src={profileImage}
+                  src={"https://camo.githubusercontent.com/f1f2bc6e7ec110b34bab4ec55aa5c93ebae552ae011f5756bd7b7f783d627a6d/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313136323037372f73637265656e73686f74732f333834383931342f70726f6772616d6d65722e676966"}
                   alt="developer"
-                  className="w-full h-auto rounded-2xl"
+                  width={200}
+                  height={180}
+                  className="w-full h-auto rounded-lg rounded-ee-none"
                   priority
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw, 33vw"
                 />
@@ -55,7 +57,7 @@ const page = () => {
                 {` Whether I'm crafting websites or other digital products, I bring unwavering dedication to developing excellence and user-centered thinking to every project. I eagerly anticipate the opportunity to apply my skills and passion to elevate your next digital endeavor.`}
               </p>
             </div>
-            <p className="lg:col-span-8 customlg:hidden hidden font-medium text-justify lg:block">
+            <p className="xlg:col-span-8 customlg:hidden hidden font-medium text-justify xlg:block -mt-14">
               {` Whether I'm crafting websites or other digital products, I bring unwavering dedication to developing excellence and user-centered thinking to every project. I eagerly anticipate the opportunity to apply my skills and passion to elevate your next digital endeavor.`}
             </p>
             <div className="col-span-2 xl:col-span-8 md:order-3 flex flex-col items-end justify-between xl:flex-row xl:items-start ">
@@ -86,6 +88,9 @@ const page = () => {
                 </h2>
               </div>
             </div>
+            <p className="col-span-6 -mt-16 text-justify hidden 2xl:block xl:hidden">
+            {` Whether I'm crafting websites or other digital products, I bring unwavering dedication to developing excellence and user-centered thinking to every project. I eagerly anticipate the opportunity to apply my skills and passion to elevate your next digital endeavor.`}
+            </p>
             <p className="font-medium text-justify hidden sm:block col-span-8 order-last">
               {` Whether I'm crafting websites or other digital products, I bring unwavering dedication to developing excellence and user-centered thinking to every project. I eagerly anticipate the opportunity to apply my skills and passion to elevate your next digital endeavor.`}
             </p>
