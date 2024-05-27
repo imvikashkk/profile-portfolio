@@ -62,29 +62,31 @@ const Experience = () => {
 
   return (
     <>
-      <h2 id="internship" className="font-bold text-8xl mt-64 w-full text-center md:text-6xl sm:text-5xl xs:text-4xl xl:mt-48 md:mt-32 sm:mt-24 mb-16 ">
-        InternShip
+      <h2 id="experience" className="font-bold text-8xl mt-64 w-full text-center md:text-6xl sm:text-5xl xs:text-4xl xl:mt-48 md:mt-32 sm:mt-24 mb-16 ">
+        Experience
       </h2>
 
       <div ref={ref} className="w-[75%] lg:w-[96vw] lg:px-5 mx-auto relative">
         <motion.div style={{scaleY:scrollYProgress}} className="absolute left-9 top-0 md:left-1 xs:-left-[2.9px] xs:w-[1.5px] w-[4px] md:w-[2px] h-full bg-dark origin-top dark:bg-light" />
-
         <ul className="w-full flex flex-col items-start justify-between">
         <Details
-            position="Web Development Intern"
-            company="ZoomIntoWeb"                                                          
-            time="2023"
-            address="Remote"
-            companyLink="https://www.zoomintoweb.com/"
-            work="Played a key role in implementing SignUp/SignIn functionality for both frontend and backend using MERN technology, including email authentication and password recovery. Collaborated on design and testing, showcasing effective teamwork in achieving project goals."
+            position="Full Stack Web Developer"
+            company="SJAIN Ventures"                                                          
+            time="Feb 2023 - Current"
+            address="Raipur, India"
+            companyLink="https://sjain.io/"
+            work="Developed scalable web apps using MERN stack. Enhanced
+            user experience & resolved technical issues. Collaborated with
+            cross-functional teams."
           />
           <Details
-            position="Frontend Developer Intern"
-            company="OctaNet"
-            time="2023"
-            address="Remote"
-            companyLink="https://octanet.in"
-            work="Crafted a meticulously polished and user-friendly website layout, ensuring seamless navigation and visually captivating aesthetics."
+            position="Full Stack Web Developer"
+            company="Figle Technologies"
+            time="2022 - 2023"
+            address="Raipur, India"
+            companyLink="https://figletechnologies.com/"
+            work="Transitioned from internship to full-time role. Pioneered
+            development of MERN stack projects."
           />
           <Details
             position="Frontend Developer Intern"
